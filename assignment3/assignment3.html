@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment Three</title>
+    <meta name="description" content="Faramarz Tashvighi - ID:100970661 - Assignment 3">
+    <meta name="keywords" content="Assignment 3, comp1223, HTML5, modules">
+    <meta name="author" content="Faramarz Tashvighi">
+    <link href="assignment3.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="wrapper">
+    <header>
+        <nav id="nav_menu">
+            <ul>
+                <li>
+                    <a href="#application">Application Form</a>
+                </li>
+                <li>
+                    <a href="#video">HTML5 Videos</a>
+                </li>
+                <li>
+                    <a href="#form">Form Elements</a>
+                </li>
+                <li>
+                    <a href="#tutorial">5 Minutes Tutorial</a>
+                </li>
+                <li>
+                    <a href="#map">Image Mapping</a>
+                </li>
+                <li>
+                    <a href="#top">Top of Page</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+<header>
+    <div id="top" class="banner">
+        <img class="banner-image" src="romsbanner.jpg" alt="romsbanner">
+        <div class="text-wrapper">
+            <h1>Welcome To ROMs Radio Official Website</h1>
+            <h2>We are a collective of passionate Retro gamers from across North America</h2>
+            <br>
+            <a href="#tutorial">
+            <img style="margin-left: 17%" src="new.jpeg" alt=new id="new">
+            </a>
+        </div>
+</header>
+<br><br><br><br><br><br><hr><br><br><br>
+
+
+<main>
+    <article>
+        <h2>Application Form</h2>
+        <form id="application" method="get">
+            <fieldset>
+                <legend>Application Form</legend>
+
+                            <label for="name">Full Name:</label>
+                            <label>
+                                <input type="text" name="name" size="20" required>
+                            </label>
+
+                            <label for="email">Email:</label>
+                            <label>
+                                <input type="email" name="email" required>
+                            </label>
+
+                            <label>Seeking:</label>
+                        <label>
+
+                            <input type="radio" name="gender" value="full-time">
+                        </label>Full-Time
+                        <label>
+
+                            <input type="radio" name="gender" value="part-time">
+                        </label>Part-Time
+
+                            <label>Nationality:</label>
+                            <label>
+                                <select name="country">
+                                    <option value="1">-Select-</option>
+                                    <option value="1">American</option>
+                                    <option value="2">Canadian</option>
+                                    <option value="3">Indian</option>
+                                    <option value="4">Chinese</option>
+                                    <option value="5">Mexican</option>
+                                </select>
+                            </label>
+
+                            <label>Skills:</label>
+                            <label>
+                                <input type="checkbox" name="aspnet" value="aspnet"> Asp.Net
+                            </label>
+                            <label>
+                                <input type="checkbox" name="jquery" value="jquery"> jQuery
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="mvc" value="mvc">MVC
+                            </label>
+                            <label>
+                                <input type="checkbox" name="sqlserver" value="sqlserver">
+                            </label> Sql Server
+
+                            <label>Post Applying For:</label>
+
+                            <label>
+                                <input type="radio" name="apply" value="trainee">
+                            </label> Trainee
+                            <label>
+                                <input type="radio" name="apply" value="sengineer">
+                            </label> Software Engineer
+                            <br>
+                            <label>
+                                <input type="radio" name="apply" value="teaml">
+                            </label> Team Leader
+                            <label>
+                                <input type="radio" name="apply" value="projectm">
+                            </label> Project Manager
+
+
+                            <label for="uploadr">Upload Resume:</label>
+
+                            <input type="file" id="uploadr" name="uploadr" accept=".doc,.pdf,.docx">
+
+                            <label for="paster">Paste Your Resmue:</label>
+
+                            <textarea id="paster" name="paster" rows="10" cols="50">Paste your Resume here... (optional)</textarea>
+
+                            <label for="notify"></label><input type="checkbox" id="notify" name="notify" value="notify">
+                            <label for="agree">Notify me of the status via E-mail</label>
+
+
+                            <input type="radio" id="agree" name="agree" value="agree" required>
+                            <label for="agree">I agree to terms & conditions</label>
+
+                            <input type="submit" value="Submit">
+                            <button type="reset">Reset</button>
+
+            </fieldset>
+        </form>
+    </article>
+
+
+    <br><br>
+    <br><br><br>
+    <hr>
+    <br><br>
+    <h1>HTML5 Videos - My Hobbies</h1>
+    <br><br>
+    <div id="video" class="container">
+        <br>
+
+                <div class="flex-item item1">
+                    <video controls>
+                        <source src="tokyodrone.mp4" type="video/mp4">
+                    </video>
+                        <h3 style="margin-left: 20%">Tokyo Drone Footage</h3>
+                    <br>
+                    <p style="margin-left: 5%">This is a video of the famous Tokyo Sky Tree in Japan.<p>
+                    <p>I was here there February for the first time and would love to<p>
+                    <p>go again, making travel one of my newest hobbies.</p>
+                </div>
+
+
+                <div class="flex-item item2">
+                    <video controls>
+                        <source src="m3drift.mp4" type="video/mp4">
+                    </video>
+                        <h3 style="margin-left: 30%">BMW m3 Drift</h3>
+                    <br>
+                        <p style="margin-left: 5%">Friendships revolving around vehicles and tinkering and</p>
+                    <p>testing with friends has lead to life-long friendships as well as a</p>
+                    <p>life-long passion for automobiles</p>
+                    </div>
+
+
+            <div class="flex-item item3">
+                <video controls>
+                    <source src="computer.mp4" type="video/mp4">
+                </video>
+                    <h3 style="margin-left: 10%">Custom "Work Station" (Gaming PC)</h3>
+                <br>
+                <p style="margin-left: 5%">I've found that with a proper Windows environment, and the</p>
+                <p>proper hardware there is almost nothing you cannot run, emulate, or</p>
+                <p>execute on a custom built PC. Some pre-builds as well, maybe.</p>
+                </div>
+</div>
+
+
+    <br><br><br>
+    <hr>
+    <br><br><br>
+    <article id="form">
+        <h2>HTML Form Elements</h2>
+    <form>
+        <fieldset>
+            <table>
+
+
+                <tr>
+                    <th>
+                        <label for="title">Title:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="title" name="title" placeholder="Select one or enter your own"
+                               pattern="[a-z, A-Z]+" required>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="name">Name:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="name" name="name" placeholder="John Doe"
+                               pattern="[a-z, A-Z]+" required>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="phone">Phone Number:</label>
+                    </th>
+                    <td>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 23456789"
+                               pattern="[0-9]+">(optional)
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="email">Email:</label>
+                    </th>
+                    <td>
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="webpage">Your Website:</label>
+                    </th>
+                    <td>
+                        <input type="url" id="webpage" name="webpage" placeholder="www.yoursite.com">(optional)
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="num">No. of items of order</label>
+                    </th>
+                    <td>
+                        <input type="number" id="num" name="num" min="1" max="10">(1-10)
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="range">Length</label>
+                    </th>
+                    <td>
+                        <input type="range" id="range" name="range" min="1" max="10" step="1">(1m in 10cm increments)
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="date">Choose a date:</label>
+                    </th>
+                    <td>
+                        <input type="date" id="date" name="date" min="2020-12-16">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="time">Choose a time:</label>
+                    </th>
+                    <td>
+                        <input type="time" id="time" min="1" max="60" name="time" step="1,800">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="colour">Colour of the item:</label>
+                    </th>
+                    <td>
+                        <input type="color" id="colour" name="colour" value="#ed1c24">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="2">
+                        <input type="image" src="submit.png" value="Submit" alt="submit">
+                        <button type="reset"><img src="reset.png" alt="reset"></button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    </article>
+    <br><br><br>
+    <hr>
+    <br><br><br>
+
+
+    <article>
+        <h2 id="tutorial">ROMS Radio Video of The Day!</h2>
+        <br>
+        <h4>Submitted by GodfatherTanner. Click on the link below.</h4>
+        <br><br>
+        <iframe id="youtube" width="960" height="450" src="https://www.youtube.com/embed/tp7Y2I0N4ts?si=5wFA2rPz4DOVMY_G" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+    <br><br><br>
+    <hr>
+    <br><br><br>
+
+
+<article>
+    <h2>Image Map</h2>
+    <div id="map">
+        <br>
+        <h4>Looking for something to watch?</h4>
+        <br>
+        <h4>Click on one of the multi-media outlets.</h4>
+        <br><br><br>
+        <img src="shapes.jpg" alt="shapes" usemap="#shapes">
+        <map name="shapes">
+            <area shape="rect" coords="10,10,440,252" alt="rectangle" href="https://www.netflix.com/ca/" target="_blank">
+            <area shape="circle" coords="609,130,54" alt="circle" href="https://www.primevideo.com/detail/0T64ZL025OI111J2CCQE7G6XHH/ref=atv_sr_def_c_unkc__1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B08CS2NVM6&qid=1607554212" target="_blank">
+            <area shape="poly" coords="854,0,759,89,759,180,853,268,853,176,945,90,850,1" alt="poly" href="https://www.youtube.com/polygon" target="_blank">
+        </map>
+    </div>
+</article>
+    <a href="#top">Top of Page</a>
+    <script src="https://mygblearn.com/js/loadscript.js"></script>
+</main>
+</body>
+</html>

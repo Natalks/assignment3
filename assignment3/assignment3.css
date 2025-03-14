@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: auto;
+    background-color: rgb(101, 102, 121);
+    position: center;
+}
+
+.content-wrapper {
+    width: 80%;
+}
+
+.content-wrapper img {
+    width: 100%
+}
+
+.text-wrapper {
+    width:100%
+    position: relative;
+    margin-top: -30%;
+}
+.text-wrapper h1 {
+    text-align: center;
+    color:  rgb(0, 255, 255);
+    font-size: 5vw;
+    font-family: "JetBrains Mono", serif;
+
+}
+h2 {
+    text-align: center;
+    color:  rgb(0, 255, 255);
+    font-size: 2vw;
+    font-family: "JetBrains Mono", serif;
+}
+article {
+    border: 3px solid black;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 255, 0.253);
+    margin: 1px 0.625% 5px 200px;
+    padding-left: 25px;
+
+}
+form {
+    border: 2px solid black;
+    width: 89.3%;
+    margin: 3.6%;
+    padding: 10px 1.8%;
+}
+article h2, article {
+    border: 1px solid black;
+    padding: 25px;
+}
+article h2 {
+    color: rgb(43, 150, 150);
+    margin: .5em 0 .25em;
+    padding-left: 35px;
+}
+h1{
+    text-align: center;
+}
+.container {
+    display: flex;
+    background-color: rgb(43, 150, 150);
+    height: auto;
+ }
+.flex-item {
+    font-size: 1rem;
+    padding: 1.5rem;
+    margin: 1px 1px 1px 1px;
+    height: 300px;
+}
+.item1 {
+    flex-grow: 1;
+    margin-left: 3%;
+}
+.item2 {
+    flex-grow: 1;
+}
+.item3 {
+    flex-grow: 1;
+}
+video {
+    height: 255px
+    width: 100%;
+}
+@media screen and (min-device-width: 600px) {
+    article {
+        height: auto;
+    }
+}
+video {
+    height: 225px;
+
+}
+footer {
+    clear:both;
+}
+#nav_menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 30em;
+    clear: both;
+    padding: 0;
+    position: fixed;
+}
+#nav_menu ul li {
+    width: 140px;
+    margin: .5em 5px .5em 5px;
+}
+#nav_menu ul li a {
+    display: block;
+    padding: .5em 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border: 2px greenyellow;
+    background-image: linear-gradient(to left top, rgb(255, 255, 255) 35%, blue);
+    box-shadow: 3px 3px 5px ghostwhite;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    background-image: linear-gradient(to right bottom, rgb(255, 255, 255) 35%, blue);
+}
+th {
+    text-align: left;
+    padding-left: 1em;
+}
+#map img {
+    height: auto;
+}
+h4 {
+    text-align: center;
+    color: ghostwhite;
+    font-size: 2vw;
+}
+.banner{
+    width: 100%;
+    display: block;
+}
+.banner-image{
+    width: 100%;
+    display: block;
+}
